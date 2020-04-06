@@ -1,5 +1,5 @@
 /**
- * Demo for Family Tree
+ * Demo for Family FamilyTree
  * 
  * First version by Adam Lev-Ari,  2019-12
  * Second version by Erel Segal-Halevi, 2020-04
@@ -12,12 +12,12 @@ using namespace std;
 
 int main() {
 	family::Tree T ("Yosef"); // Yosef is the "root" of the tree (the youngest person).
-	T.addFather("Yosef", "Yaakov")   // Tells the tree that the father of Yosef is Yaakov.
-	 .addMother("Yosef", "Rachel")   // Tells the tree that the mother of Yosef is Rachel.
-	 .addFather("Yaakov", "Isaac")
-	 .addMother("Yaakov", "Rivka")
-	 .addFather("Isaac", "Avraham")
-	 .addFather("Avraham", "Terah");
+	T.addFather("Yosef", "Yaakov");   // Tells the tree that the father of Yosef is Yaakov.
+	 T.addMother("Yosef", "Rachel");   // Tells the tree that the mother of Yosef is Rachel.
+	 T.addFather("Yaakov", "Isaac");
+	 T.addMother("Yaakov", "Rivka");
+	 T.addFather("Isaac", "Avraham");
+	 T.addFather("Avraham", "Terah");
 
 	T.display();                        // displays the tree in a human-friendly format.
 
