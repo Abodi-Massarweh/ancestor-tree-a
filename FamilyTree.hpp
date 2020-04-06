@@ -23,6 +23,7 @@ namespace family {
     class Tree {
     Node* root; /*youngest*/
     public:
+        Tree(){this->root=NULL;}
         Tree(const std::string str)
         {
             this->root=new Node(str);
