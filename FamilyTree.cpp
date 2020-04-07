@@ -4,9 +4,9 @@
 
 #include "FamilyTree.hpp"
 
-family::Tree family::Tree::addMother(const string son, const string mother) { }
+family::Tree family::Tree::addMother(const string son, const string mother) {return *this; }
 
-family::Tree family::Tree::addFather(const string son, const string father) { }
+family::Tree family::Tree::addFather(const string son, const string father) { return *this; }
 
 void family::Tree::display() {return;}
 
