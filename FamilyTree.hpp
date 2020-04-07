@@ -30,32 +30,26 @@ namespace family {
         }
         Node* Get_root(){return this->root;}
 
-        int addFather(const string son, const string parent)
-        {
-            return 404;
-        }
+        void addFather(const string son, const string father);
 
-        int addMother(const string son, const string mother)
-        {
-            return 404;
-        }
 
-        void display()
-        {
 
-        }
-        string relation(const string str)
-        {
-            return  "INCOMPLETE";
-        }
-        string find(const string str)
-        {
-            return "INCOMPLETE";
-        }
-        void remove(const string target)
-        {
 
-        }
+        void addMother(const string son, const string mother);
+
+
+
+
+        void display();
+
+
+
+        string relation(const string str);
+
+        string find(const string str);
+
+        void remove(const string target);
+
     };
 }
 
