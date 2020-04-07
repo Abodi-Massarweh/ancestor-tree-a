@@ -5,7 +5,7 @@
  * Second version by Erel Segal-Halevi, 2020-04
  */
 
-#include "familytree.hpp"
+#include "FamilyTree.hpp"
 
 #include <iostream>
 using namespace std;

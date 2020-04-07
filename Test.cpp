@@ -1,5 +1,5 @@
 #include "doctest.h"
-#include "familytree.hpp"
+#include "FamilyTree.hpp"
 //using namespace ariel;
 
 TEST_CASE("Test case 1 (BETA)") {
