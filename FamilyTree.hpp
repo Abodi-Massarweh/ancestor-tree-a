@@ -30,12 +30,12 @@ namespace family {
         }
         Node* Get_root(){return this->root;}
 
-        void addFather(const string son, const string father);
+         Tree addFather(const string son, const string father);
 
 
 
 
-        void addMother(const string son, const string mother);
+         Tree addMother(const string son, const string mother);
 
 
 
