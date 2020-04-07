@@ -30,14 +30,14 @@ namespace family {
         }
         Node* Get_root(){return this->root;}
 
-        void addFather(const string son, const string parent)
+        int addFather(const string son, const string parent)
         {
-
+            return 404;
         }
 
-        void addMother(const string son, const string mother)
+        int addMother(const string son, const string mother)
         {
-
+            return 404;
         }
 
         void display()
